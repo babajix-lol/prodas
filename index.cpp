@@ -1,15 +1,18 @@
 #include <iostream>
 using namespace std;
-
 int main() {
-    int time = 22;
-    if(time < 10) {
-        cout << "good morning";
-    } else if (time < 20) {
-        cout<< "good day.";
+    int age = 27;
+    if (age < 13){
+        cout<<"you are a child.";
+    }else if (age < 13){
+        cout<<"you are a teenager";
+        
     }else{
-        cout<<"good evening.";
+        cout<<"you are old";
+        
+        }
+        return 0;
     }
-    return 0;
-}
     
+
+   
